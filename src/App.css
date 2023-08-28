@@ -1,120 +1,117 @@
-/* src/App.css */
-
 .App {
-    text-align: center;
-    margin: 2rem;
-  }
-  
-  h1 {
-    margin-bottom: 1.5rem;
-    color: #333;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 2rem;
-    background-color: #f9f9f9;
-  }
-  
-  th,
-  td {
-    padding: 0.8rem;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #333;
-    color: white;
-  }
-  
-  tr:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .add-form {
-    background-color: #f9f9f9;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .add-form input {
-    width: 100%;
-    padding: 0.5rem;
-    margin-bottom: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  
-  .add-form button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border-radius: 3px;
-  }
-  
-  .add-form button:hover {
-    background-color: #0056b3;
-  }
-  
+  text-align: center;
+  margin: 2rem;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background-color: #f9f9f9;
+}
+
+th,
+td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+}
+
+.add-form {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-form input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.add-form button:hover {
+  background-color: #0056b3;
+}
 
 .sidebar {
-    width: 250px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar ul li {
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-  }
-  
-  .sidebar ul li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .sidebar ul li a:hover {
-    text-decoration: underline;
-  }
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+}
 
-  .content {
-    margin-left: 250px; /* Match the width of the sidebar */
-    padding: 2rem;
-  }
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
 
-  .sidekicks-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .sidekick-card {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-    background-color: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .sidekick-card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
+.sidebar ul li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 250px; /* Match the width of the sidebar */
+  padding: 2rem;
+}
+
+.sidekicks-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.sidekick-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidekick-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
